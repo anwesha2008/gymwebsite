@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,800&display=swap" rel="stylesheet">
+
+    <style>
+        .container{
+            width:900px;
+            border:8px solid black;
+            background-color: blanchedalmond;
+            margin:20px auto;
+        }
+
+        .pone{
+            border:3px solid black;
+            background-color: rgb(181, 150, 223);
+            margin:10px;
+            padding:8px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            box-shadow:inset 8px 9px 60px  rgb(120, 212, 148);
+        }
+        h1{
+            margin:12px auto;
+            width:400px;
+        }
+
+        #paraone{
+            float: left;
+            width: 98%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #paratwo{
+            float:right;
+            width:98%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        .navbar{
+    display: inline-flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 5;
+}
+
+
+
+
+
+.navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+                       
+                        .container{
+                        width:800px;
+                        border:8px solid rgb(4, 0, 240);
+                        background-color: rgb(170, 248, 139);
+                        margin:15px auto;
+                              }
+                              .item{
+            border:3px solid black;
+            background-color: burlywood;
+            margin:10px;
+            padding:15px;
+        }
+        .container{
+            height: 1800px; 
+            width: 100%;
+            border: 5px solid rgb(0, 0, 0);
+            display: inline-flex; 
+            flex-direction: column;
+          justify-content: space-between; 
+          box-shadow: inset 50px 50px 50px rgb(233, 226, 163);
+        
+            position: ;
+        }
+        .item{
+            width: 1280px;
+            height: 150px;
+            background-color: paleturquoise;
+            border: 5px solid indigo;
+            margin: 10px;
+            padding: 3px;
+            box-shadow:inset 8px 9px 60px  teal ;
+
+        }
+        
+
+        #item-1{
+             
+             flex-grow: 90;
+            flex-shrink: 2; 
+            font-family: 'Texturina', serif;
+
+        }
+        #item-2{
+            font-family: 'Texturina', serif;
+        }
+        #item-3{
+            
+            align-self: flex-start;
+            font-family: 'Texturina', serif;
+
+            }
+            #item-4{
+                font-family: 'Texturina', serif;
+            }
+            #item-5{
+                font-family: 'Texturina', serif;
+            }
+            #item-6{
+                font-family: 'Texturina', serif;
+            }
+            #item-7{
+                font-family: 'Texturina', serif;
+            }
+            #item-8{
+                font-family: 'Texturina', serif;
+            }
+            #item-9{
+                font-family: 'Texturina', serif;
+            }
+            #item-10{
+                font-family: 'Texturina', serif;
+            }
+        
+            .gif{
+               background-color: rgb(241, 214, 178); 
+               border: 2px solid rgb(140, 141, 238);
+            }
+            .you{
+                border: 5px solid black;
+                justify-content: space-evenly;
+                padding: 2px;
+                padding-right: 2px;
+            }
+            body{
+                background-color: rgb(195, 204, 68);
+            }
+</style>
+</head>
+<body>
+    <header>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="https://starmarkfitnessstudio.com/">Home</a></li>
+                    <li><a href="https://starmarkfitnessstudio.com/about-us/">About</a></li>
+                    <li><a href="https://starmarkfitnessstudio.com/our-service/">Services</a></li>
+                    <li><a href="https://starmarkfitnessstudio.com/contact-us/">Contact us</a></li>
+                    <li><a href="https://starmarkfitnessstudio.com/facilities/">Facilities</a></li>
+                    <li><a href="https://starmarkfitnessstudio.com/blog/">Blog</a></li>
+                    <li><a href="https://starmarkfitnessstudio.com/gallery/">Gallery</a></li>
+                    <div class="search">
+                        <input type="text" name="search" id="search" placeholder="Search item">
+                    </div>
+                </ul>
+            </nav>
+        </header>
+    </header>
+ <h1> STARMARK FITNESS STUDIO</h1>
+ <p><img src="https://starmarkfitnessstudio.com/wp-content/uploads/2019/07/SFS-LOGO.png" alt="Error is there" height="500" width="1300"></p>
+ <p class="gif" ><strong>Starmark Fitness Studio</strong> is the one-stop fitness center where each of your fitness needs will 
+    be fulfilled. Our fitness studio comprises of the best equipment, exceptionally talented and certified trainers, 
+    lavish facilities, and an array of different exercises. Being accoladed as the finest gym near you in Kolkata, 
+    we serve the best experience of a gym and fitness. Our cardio workouts, weight management workouts, CrossFit
+     workouts, strength enhancement workouts, personalized care and training, Yoga techniques, Zumba workouts, TRX 
+     workouts, Power lifting, and much more activities are included in our fitness center that make you incredibly 
+     healthy, both physically and mentally.</p> <hr>
+
+     
+    
+         <p class="you"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa4czbQCZFumXbFpT6J_qay09HgRJJ0lAPEg&usqp=CAU" height="300" width="700">
+        <img src="https://starmarkfitnessstudio.com/wp-content/uploads/2019/06/about-img.jpg" height="300" width="600"></p>
+          <p class="gif">We embrace a fitness regime that would help you uphold a healthier life by accessing your inner strength,
+               flexibility, durability, and mental supremacy. We consider your age, height, weight, and medical 
+               history in order to offer you the fitness regime that suits you! Moreover, Starmark believes that 
+               every lock has a different key and that’s why we take personal care for each of our members! Some of
+                you need nutritional requirements, some need a strength enhancement, a few require weight management,
+                 and so on… Starmark takes care of each fitness needs with a sheer ease.</p>
+          
+        
+               
+        <h3>What we offer?</h3>
+        <ul type="square">
+            <li> <div style="border: 3px solid black;">Weight Management Workouts</div></li>
+            <li><div style="border: 3px solid black;">Strength Enhancement Workouts</div></li>
+            <li><div style="border: 3px solid black;">TRX Workouts</div></li>
+            <li><div style="border: 3px solid black;">Scientific Yoga</div></li>
+            <li><div style="border: 3px solid black;">Food Dietitian</div></li>
+            <li><div style="border: 3px solid black;">Powerlifting</div></li>
+            <li><div style="border: 3px solid black;">Spinning Class</div></li>
+            <li><div style="border: 3px solid black;">Massage</div></li>
+            <li><div style="border: 3px solid black;">Cardio Workouts</div> </li>
+            <li><div style="border: 3px solid black;">Weight Lifting</div></li>
+            <li><div style="border: 3px solid black;">CrossFit Workouts</div></li>
+            <li><div style="border: 3px solid black;">Zumba Workout</div></li>
+        </ul>
+        
+       
+        <p class="pone" id="paraone">Our 15,000 Square Feet area inside the gym, prime location, and cafeteria put our gym at 
+            the highest level of priority for the fitness lovers in Kolkata. Fitness Codeis on a mission to offer
+             the organic workouts, efficient dietitians, nutritionists, and a paramount level of integrity to the
+              aspiring fitness lovers who are looking for a luxurious gym near them in Tollygunge, Kolkata.</p>
+              <p class="pic"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Amsterdam_-_Gymnasium_-_0591.jpg/220px-Amsterdam_-_Gymnasium_-_0591.jpg"
+                 height="450" width="500" ></p>
+        <P class="pone" id="paratwo">Being the most professional gym near you in Kolkata, we vision to tailor the best fitness regime
+            and diet for our gym members. We want to create a fitness ambiance where none of our members 
+            will feel left out if for any kind of fitness assistance during the gym time at Starmark. We 
+            envision a society where every individual will lead a happy and healthy lifestyle.</P>
+           
+
+    <h2>BECOME A MEMBER NOW!!</h2>
+    <form action="backend.php">
+        <div>
+            Name: <input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            Address: <input type="text" name="myAddress">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+
+        <br>
+        <div>
+            Date of Birth: <input type="date" name="myDate">
+        </div>
+        <br>
+        
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <br>
+            <div>
+                Any History of Medical Issues: <br><textarea name="myText" cols="100" rows="10"></textarea> 
+           
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+         <br>
+         <strong>Want to know more? --></strong> <a href="https://starmarkfitnessstudio.com/" target="_blank">Go to this link</a>
+         
+
+
+<div class="container">
+    <h3>DETAILS ABOUT COURSES</h3>
+    <div class="item" id="item-1"><strong> Management Workouts</strong>
+      than depending fully on the calorie restriction, it’s more effective to combine the exercise with a healthy diet 
+      for losing weight and maintaining it. Even certain diseases can be prevented and their effects can be reversed
+       by the exercise. It’s great to do exercise for lowering the cholesterol and blood pressure which are the two
+        main reasons for the heart attack. Even for lowering the killer diseases like breast cancer or colon, exercise
+         is a great help. When you exercise, it builds self-confidence and well-being in you which reduces the rates of
+         depression and nervousness. Starmark manages to bring together the finest fitness trainers and equipment in 
+         order to create an intuitive routine for weight management workouts. The better you manage your weight, the
+          more we succeed!</div>
+    <div class="item" id="item-2"><strong>CrossFit Workouts</strong>
+        CrossFit Workouts
+Being the best gym in Kolkata near you, we always try to make sure that you get a diverse range of workout programs 
+which includes the CrossFit Workout considering its immense benefits for your fitness level.
+
+CrossFit is one of the most efficient ways to get fit. And more importantly, anybody is capable of doing this workout.
+ This fitness program coalesces an array of functional movements into a scored and timed workout! Pull-Ups, Push-Ups,
+  Gymnastics, Squats, Weightlifting, Rowing, Running, and a line of other movements are associated with this workout. 
+  The CrossFit workout is recommended to practice for three consecutive days, rest for one day and then practice 
+  for three more consecutive days. This routine should be maintained.</div>
+    <div class="item" id="item-3">Strength Enhancement Workouts
+        If you want to improve the tone and strength of your muscles, then all you require is confronting your muscles
+         with the Strength training (which is also called the Resistance Training) exercises for two or three times a
+          week. The strength enhancement workouts would not only enhance your strength but also will help you get various 
+          long-term health benefits to your general metabolism, bones, and muscles.
+        
+        At Starmark Fitness Studio, we take pride in offering the health-focused strength enhancement workouts
+         which never affect your health with any side effects! Moreover, our professional and certified trainers 
+         will always be there to guide you throughout the workout process in order to make sure none of our members
+          make any harm to their body during the workout process.</div>
+          <div class="item" id="item-4"><strong>Zumba Workouts</strong> 
+            Zumba is one workout that is often not found in most of the gyms in Kolkata and other metropolitans. 
+            But Starmark lives up to its reputation and brings the finest Zumba instructors to get your trained
+             with incredibly intuitive Zumba workouts. Our goal lies in offering you the utmost level of fitness
+              wrapped in the rare but effective workouts.
+            
+            Zumba workout is a workout that focuses on the lower-boy and integrates the Zumba routine and aerobic 
+            steps with the Latin Dance Rhythms. The people who do their workouts with the toning sticks can go for 
+            the Zumba Toning as that’s made for the group of people. Through the Zumba workout, you can strengthen 
+            and work on your arms, thighs, and abs along with the other muscles of your body.</div>
+            <div class="item"id="item-5">Kettlebell and TRX Workouts
+                Kettlebell and TRX workout is a suspension training which makes use of the weight of your body for exercise to build balance,
+                 strength, flexibility, and core stability at the same time. You need to work for maintaining the center of gravity with Kettlebell
+                  and the TRX would encourage a plank position for exercise. With the gravity and body weight, a person can finish the exercises.
+                
+                We, at Starmark, stay extremely focused on providing the finest training for the Kettlebell and TRX workouts. Our certified fitness 
+                trainers explain every little detail of the workout process to the members who join the workout program in order to ensure that
+                 none of them make any mistakes during the workout as TRX workout can harm their health if done wrong!</div>
+                <div class="item"id="item-6">Powerlifting
+                    Powerlifting is such a strength-based workout program that focuses on a single aspect – putting more weights to the bar
+                     and lifting the bar. Basically, there are two kinds of individuals found in the world of fitness and gym – one who 
+                     focuses on shape and aesthetic, the bodybuilders and the others who are all about weight on the bar, powerlifters.
+                      Starmark takes an immense care of the powerlifting process and the powerlifters during the workout. The professionalism
+                       of Starmark’s certified professionals always lets the workout get completed under an efficiency and without any health 
+                       risk. When you do the heavy lifts like bench press, squats, and deadlifts, the only thing that matters is an expert
+                        guidance for the workout process.
+                    We, at Starmark, push your limits and make you do the unthinkable with our motivating trainers, 
+                    friendly management, and outstandingly crafted environment. These qualities may be missed in most of the
+                     multi gyms in Kolkata you heard of!
+                </div>
+                <div class="item" id="item-7">Weight Lifting
+                    Weight Lifting is a usual form of strength training which is practiced for the strength development
+                     and for the development of the skeletal muscles. The force of gravity is used by this workout in the form of the weighted
+                      bars, weight stacks or dumbbells for opposing the strength generated by the muscles through the eccentric or concentric
+                       tightening.
+                    
+                    Moreover, Starmark offers you an extensive body transformation workout program which works on the right transformation
+                     of your body in line with your wish! Be it fat loss or weight gain, our fitness trainers along with the dietitians and
+                      nutritionists create a fitness regime and a planned diet for you which take you towards your destination of fitness.
+                       When our weight lifting workouts join force with the perfect diet plans, it not only transforms your body but transforms
+                        your health and personality!</div>
+                        <div class="item" id="item-8">Scientific Yoga Techniques
+                            A great fitness depicts an active body and a healthy mind. And the Yoga can make you fit in both ways.
+                             The neuroscience that applies to the Yoga is enough to explain which the Yoga is required to be practiced 
+                             regularly for an effective reduction in the stress and building a perfect balance in the body. Yoga can also
+                              help you focus on something deeply which has perhaps been overlooked before.
+                            
+                            Dr. Mithu Storoni (Medical Doctor, Neuroscientist, and a Yoga Teacher) has enlightened the science lied
+                             behind the stress and Yoga. That’s why it’s always a great facility to go for Scientific Yoga for gaining a 
+                             healthy lifestyle. Thus, we offer each of our Yoga asanas wrapped with a scientific cloak! Starmark always 
+                             puts its efforts in finding the scientific reasons for practicing the Yoga techniques and also trains the
+                              members with the techniques which are scientifically proven.</div>
+                              <div class="item" id="item-9">Cardio Workouts
+                                Cardiovascular fitness helps us develop and nurture our heart’s capability of pumping the oxygen-rich blood
+                                 to the muscles. And the Cardio Workout helps us develop Cardiovascular and Aerobic fitness!
+                                
+                                For the cardio workout, one requires a continuous reasonable level of intensity for a specific time duration.
+                                 During the time, the cardiovascular system will be able to refill the oxygen in your body to the working
+                                  muscles. The common cardio activities are cycling, walking, swimming, jogging, rowing, stair climbing,
+                                   and jump rope.
+                                
+                                At Starmark Fitness Studio, we include each and every cardio activity onboard in order to ensure your 
+                                fitness and metabolism. Our cardio trainers stay by your side during all the workout procedures and make 
+                                sure you don’t take a wrong step while doing the workout.</div>
+                                <div class="item" id="item-10">Spinning Class
+                                    Inside our large Spinning Studio, we conduct extensive spinning classes that include the stationary
+                                     bikes that focus on your endurance, strength, intervals, high intensity, and recovery. Also, known 
+                                     as flywheels, stationary bikes are used at multiple levels of speed and resistance. Moreover, trainees
+                                      are asked to cycle in different positions for improving different muscles.
+                                    
+                                    Spinning Classes come with a range of health benefits for the trainees. With regular spinning studio 
+                                    exercises, you can lose weight, burn calories, and have better BMI chart readings. Moreover, Spinning 
+                                    class exercises are also great in reducing body fat percentage and improving blood-glucose levels.
+                                    
+                                    With a knowledgeable and efficient trainer, energetic music, and great lighting effects, we make sure
+                                     our Spinning class remains entertaining and effective. Considerably, the finest of the cardio exercises,
+                                      Spinning Class should be your destination for a fun workout. We offer the best spinning class regime 
+                                      in Kolkata.</div>
+</div>
+<details>
+    <summary>More About Us</summary>
+    <p class="pone" id="parathree"><img src="https://starmarkfitnessstudio.com/wp-content/uploads/2019/06/best-gym-1.jpg" height="300" width="500">At Starmark Fitness Studio, we take pride in ourselves for being able to gather the finest fitness enthusiasts,
+        certified fitness trainers, world-class fitness equipment, and an energetic ambiance for fitness. Our 
+        result-focused exercises and immense care for each of our gym members make us one of the best multi gyms
+         in South Kolkata. At a luxurious gym like Starmark, you are going to receive good care not only for the 
+         health of your body and mind but also the other aspects such as your leisure! We always come up at the top 
+         when it comes to your luxury and relaxation after the intense workout under the supervision of our trained 
+         professionals.
+        The fitness workout is basically the combination of both art and science. So, you may call it a scientific art. While 
+            we need to care for the time restrictions, personal preferences, and training responses, there’s also an entree to a 
+            huge amount of time-tested scientific methods.Starmark is best known for its care for the fitness seekers and efficiency in
+             a diverse range of workout programs that are designed to embrace and enhance the fitness level of individuals. Fitness lovers
+              across Kolkata label us the single most professional and dominating fitness center in Kolkata for the variety of workouts we
+               offer and the fine results those bring out for your health and fitness.
+              <img src="https://img.etimg.com/thumb/msid-78086255,width-640,resizemode-4,imgsize-218976/crumbling-structure.jpg"
+                height="350" width="400"></body>
+            Our workouts focus on various aspects of fitness from the durability to endurance, strength, flexibility, and weight loss! 
+            We talk to you, discuss your fitness goals and present health issues and recommend the finest fitness programs that bring you 
+            to your goals!
+
+            Often following a written program is the only way left for us. And there’s nothing wrong as the doctors suggest us to follow.
+             But often, it’s best to run our own scientific training experiments in order to achieve our goals and get control over our own
+              training. That’s why people in the fitness industry label us as the best multi gym in Kolkata!</p>
+</details>
+
